@@ -1,0 +1,19 @@
+.redpara {
+    background-color: deeppink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.redpara.special {
+    font-size: 24px;
+}
+
+#firstID {
+    font-size: 34px;
+    color: blue;
+}
+
+#secondID {
+    font-size: 24px;
+    background-color: lightgreen;
+    font-weight: bold;
+}
