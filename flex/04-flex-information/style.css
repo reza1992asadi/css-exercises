@@ -12,6 +12,42 @@ img {
   font-weight: 900;
 }
 
+
+.vertical {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:40px; 
+}
+
+.first{
+  max-width: 200px;
+}
+
+.second{
+  max-width: 200px;
+}
+
+.third{
+  max-width: 200px;
+}
+
+.fourth{
+  max-width: 200px;
+}
+
+/* my method sucked, longer code and ugly. but nontheless it did what it had to do. only problem
+is I couldn't make the information and images appear in the middle all together. no idea why? 
+*/
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
